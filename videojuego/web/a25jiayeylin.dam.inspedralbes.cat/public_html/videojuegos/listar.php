@@ -29,6 +29,9 @@ $videojuegos = $resultado->fetch_all(MYSQLI_ASSOC); ?>
                         </td>
                     </tr>
                 <?php } ?>
+                <a href="insertar.php">
+                    <button class="btn btn-success">Ir a Inicio</button>
+                </a>
             </tbody>
         </table>
         
